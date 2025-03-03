@@ -35,7 +35,7 @@ The inspiration for configuration is based on:
 
 ## Assumptions
 
-- Python 3.9 is default on CI, 3.8 as minimum installable for package - due to recent projects (as of 01.2023), hopefully to update soon.
+- Python 3.12 is default on CI, 3.10 as minimum installable for package - due to recent projects (as of 01.2023), hopefully to update soon.
 - GitLab is used in almost all projects so it's selected as the default CI / CD provider.
 - The licences of used libraries are verified against the provided whitelist, which can be exceptionally modified to accept GPL-like licenses.
 - No support multiple python version in the project - each project sticks to single python version and most dependencies are constant.
